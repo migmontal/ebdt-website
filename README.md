@@ -28,7 +28,7 @@ This repository hosts the website created for the ebdt library. You can view it 
 ## Vignettes
 Find summarized information at the following link:
 
-[https://migmontal.github.io/ebdt-website/inst/doc/ebdt.html](https://migmontal.github.io/ebdt-webside/inst/doc/ebdt.html)
+[https://migmontal.github.io/ebdt-website/articles/ebdt.html](https://migmontal.github.io/ebdt-website/articles/ebdt.html)
 
 ---
 
