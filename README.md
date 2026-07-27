@@ -32,6 +32,13 @@ Find summarized information at the following link:
 
 ---
 
+## Shiny app
+Run the app and perform your calculations:
+
+[https://migmontal.shinyapps.io/ebdt/](https://migmontal.shinyapps.io/ebdt/)
+
+---
+
 ## Funding
 
 Plan Propio de Investigación y Transferencia de la Universidad de Granada. 2024. Programa 21. Programa de estimulación a la investigación.
