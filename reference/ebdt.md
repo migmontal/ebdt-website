@@ -1,11 +1,6 @@
-# Calculate all parameters of a binary diagnostic test in a traverse or Cross-sectional study.
+# Calculate all parameters of a binary diagnostic test in a Cross-sectional or Retrsopective study.
 
-This function calculate Sensitivity, Specificity, positive and negative
-predictive value, positive and negative Likelihood Ratio, Weighted Kappa
-coeficient, Youden Index, prevalence and their Confidence intervals in a
-traverse or Cross-sectional study, and Sensitivity, Specificity, Youden
-Index, positive and negative Likelihood Ratio in a Case Control or
-Retrospective study.
+This function calculate Sensitivity, Specificity, positive and negative predictive value, positive and negative Likelihood Ratio, Weighted Kappa coeficient, Youden Index, prevalence and their Confidence intervals in a traverse or Cross-sectional study, and Sensitivity, Specificity, Youden Index, positive and negative Likelihood Ratio in a Case Control or Retrospective study.
 
 ## Usage
 
