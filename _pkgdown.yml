@@ -1,0 +1,9 @@
+url: https://migmontal.github.io/ebdt
+template:
+  bootstrap: 5
+navbar:
+  title: ebdt
+  structure:
+    left: [home, intro, reference, articles, news]
+    right: [github]
+
