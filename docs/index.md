@@ -14,9 +14,10 @@ diagnostic test quality measures including:
 - **Likelihood Ratios**: PLR and NLR for test utility
 - **Additional measures**: Youden Index, Weighted Kappa, Prevalence
 
-Supports both: - **Cohort/Cross-sectional studies**: Full parameter
-set - **Case-Control/Retrospective studies**: Limited to Sensitivity,
-Specificity, Youden Index, and Likelihood Ratios
+Supports both: 
+- **Cohort/Cross-sectional studies**: Full parameter set.
+- **Case-Control/Retrospective studies**: Limited to Sensitivity,
+Specificity, Youden Index, and Likelihood Ratios.
 
 ## Installation
 
@@ -51,6 +52,22 @@ ebdt(s1=95, r1=10, s0=5, r0=290, conflev=0.95, digits=3)
 See the [online documentation](https://migmontal.github.io/ebdt/) for: -
 Function reference - Usage examples - Methodological details and
 references
+
+## Shiny app
+
+The package includes an interactive Shiny application:
+
+```r
+shiny::runApp(system.file("app", package = "ebdt"))
+
+```
+
+and you can also find it at:
+
+```r
+https://migmontal.shinyapps.io/ebdt/
+
+```
 
 ## Authors
 
