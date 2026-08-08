@@ -120,18 +120,6 @@ ebdt(s1 = 40, r1 = 5, s0 = 10, r0 = 45)</code></pre>
 <p>A warning is issued when the correction is applied.</p>
 <pre><code>ebdt(0, 5, 10, 45, quiet = TRUE)</code></pre>
 
-<h2>Reading from Excel</h2>
-<pre><code>ebdt_from_excel("test_ebdt.xlsx")
-ebdt_from_excel("test_ebdt.xlsx", study = FALSE, conflev = 0.99)</code></pre>
-<p>The Excel file must contain a 2x2 numeric matrix in the top-left corner:</p>
-<pre><code># Row 1: TP  FP
-# Row 2: FN  TN</code></pre>
-
-<div class="note">
-<strong>Note:</strong> The <code>readxl</code> package must be installed to use <code>ebdt_from_excel()</code>.
-Install it with <code>install.packages("readxl")</code>.
-</div>
-
 <h2>Return Values (Programmatic Use)</h2>
 <p>All functions return structured lists in addition to printing to the console:</p>
 <pre><code>res &lt;- ebdt_se(40, 5, 10, 45)
@@ -168,6 +156,18 @@ head(res_kap, 3)</code></pre>
 <p>and you can also find it at:</p>
 <pre><code>https://migmontal.shinyapps.io/ebdt/</code></pre>
 <p>Features: manual entry of TP/FP/FN/TN counts, Excel (.xlsx) upload with 2x2 table auto-population, study type selection, individual metric or all-metric mode, and text file export.</p>
+	
+<h3>Reading from Excel</h3>
+<pre><code>ebdt_from_excel("test_ebdt.xlsx")
+ebdt_from_excel("test_ebdt.xlsx", study = FALSE, conflev = 0.99)</code></pre>
+<p>The Excel file must contain a 2x2 numeric matrix in the top-left corner:</p>
+<pre><code># Row 1: TP  FP
+# Row 2: FN  TN</code></pre>
+
+<div class="note">
+<strong>Note:</strong> The <code>readxl</code> package must be installed to use <code>ebdt_from_excel()</code>.
+Install it with <code>install.packages("readxl")</code>.
+</div>
 	
 <h2>GitHub</h2>
 <p>
