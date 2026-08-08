@@ -1,4 +1,10 @@
 # ebdt-website
+
+<!-- badges: start -->
+![R Shiny](https://img.shields.io/badge/Shiny-1.9.1-blue?logo=r)
+![License](https://img.shields.io/badge/license-MIT-green)
+<!-- badges: end -->
+
 ## Evaluating of Binary Diagnostic Test (EBDT documentation website)
 
 The <code>ebdt</code> package evaluates the quality of a binary diagnostic test under complete verification. It computes point estimates and confidence intervals for sensitivity, specificity, Youden index, positive and negative predictive values, positive and negative likelihood ratios, weighted kappa coefficient, and disease prevalence, for both, cross-sectional (prospective) and retrospective study designs. </p>
