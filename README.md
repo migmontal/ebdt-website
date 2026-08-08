@@ -45,7 +45,7 @@ Run the app and perform your calculations:
 
 ---
 
-## Funding
+## Fundings
 
 Plan Propio de Investigación y Transferencia de la Universidad de Granada. 2024. Programa 21. Programa de estimulación a la investigación.
 
