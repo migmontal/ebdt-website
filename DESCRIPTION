@@ -8,8 +8,8 @@ Authors@R: c(
 Author: Miguel Angel Montero-Alonso [aut, cre]
     Juan de Dios Luna del Castillo [aut]
 Maintainer: Miguel Angel Montero-Alonso <mmontero@ugr.es>
-Description: This function calculate Sensitivity, Specificity, positive and negative predictive
-    value, positive and negative Likelihood Ratio, Weighted Kappa coeficient,
+Description: This function calculates Sensitivity, Specificity, positive and negative predictive
+    value, positive and negative Likelihood Ratio, Weighted Kappa coefficient,
     Youden Index, prevalence and their Confidence intervals in a traverse or
     Cross-sectional study, and Sensitivity, Specificity, Youden Index,
     positive and negative Likelihood Ratio in a Case Control or Retrospective study.
